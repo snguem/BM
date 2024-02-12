@@ -1,0 +1,167 @@
+@media (min-width: 551px) and (max-width: 800px) {
+    #binome nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #mot_du_directeur {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #presentation #images {
+        display: none;
+    }
+
+    #mel #images {
+        display: none;
+    }
+
+    /* 
+     */
+
+    #realisations #images {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #realisations #images div:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #realisations #images div:nth-child(2) {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #realisations #images div:nth-child(3) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #realisations #images div:nth-child(4) {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    #realisations #images div:nth-child(5) {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #realisations #images div:nth-child(6) {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    #realisations {
+        margin-top: 20px;
+    }
+
+    #mot_du_directeur #images img {
+        width: 200px;
+    }
+
+    #produit #images img:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    footer a {
+        font-size: 40px;
+    }
+
+    #binome nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #mot_du_directeur {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #presentation #images {
+        display: none;
+    }
+
+    #mel #images {
+        display: none;
+    }
+
+    /* 
+     */
+
+    #realisations #images {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    #realisations #images div:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #realisations #images div:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #realisations #images div:nth-child(3) {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #realisations #images div:nth-child(4) {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    #realisations #images div:nth-child(5) {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    #realisations #images div:nth-child(6) {
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    #realisations {
+        margin-top: 20px;
+    }
+
+    #mot_du_directeur #images img {
+        width: 120px;
+    }
+
+    #mot_du_directeur #texte h2 {
+        font-size: 25px;
+    }
+
+    #produit #images img:nth-child(2) {
+        display: none;
+    }
+
+    #binome nav ul li a {
+        font-size: 15px;
+    }
+
+    #presentation #texte h1 {
+        font-size: 40px;
+    }
+
+    #mel div h1 {
+        font-size: 35px;
+    }
+
+    #produit #images img {
+        width: 200px;
+    }
+
+    #produit #texte h1 {
+        font-size: 30px;
+    }
+}
